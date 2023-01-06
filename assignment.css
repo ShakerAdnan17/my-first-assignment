@@ -1,0 +1,32 @@
+
+.banner{
+    background-image: url('images/banner/banner2.png');
+    align-items: center;
+    
+    height: 820px;
+}
+.banner-text{
+    text-align: center right;
+    color: #151414;
+}
+.asd{
+    text-align: right center;
+    padding: 220px;
+    color: #444343;
+
+}
+.second-banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.sub-title{
+    font-weight: 700px;
+    font-size: 40px;
+    margin: 0 94px;
+    margin-bottom: 24px;
+   
+}
+.para{
+    color: #444343;
+}
