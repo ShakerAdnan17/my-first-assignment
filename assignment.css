@@ -1,32 +1,61 @@
-
-.banner{
+.banner {
     background-image: url('images/banner/banner2.png');
     align-items: center;
-    
+
     height: 820px;
 }
-.banner-text{
+
+.banner-text {
     text-align: center right;
     color: #151414;
 }
-.asd{
+
+.asd {
     text-align: right center;
     padding: 220px;
     color: #444343;
 
 }
-.second-banner{
+
+.second-banner {
     margin: 0 200px;
     display: flex;
     align-items: center;
 }
-.sub-title{
+
+.sub-title {
     font-weight: 700px;
     font-size: 40px;
     margin: 0 94px;
     margin-bottom: 24px;
-   
+
 }
-.para{
+
+.para {
     color: #444343;
+}
+
+/* planning section */
+.my-plans {
+    display: flex;
+    margin: 0 230px;
+    gap: 130px;
+}
+
+.plans-title {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.skill {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.my-target {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
 }
