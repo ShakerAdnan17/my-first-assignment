@@ -1,19 +1,43 @@
 .banner {
-    background-image: url('images/banner/banner2.png');
-    align-items: center;
+    background-image: url('./images/banner/banner2.png');
+    text-align: right;
+    
+   
 
-    height: 820px;
+}
+
+
+.banner-btn {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #F15B22;
+    border-radius: 5px;
+    border-width: 0;
+    color: #FFFFFF;
+    padding: 20px 25px;
+
+}
+.banner-title{
+    font-weight: 700;
+font-size: 65px;
+color: #151414;
+
 }
 
 .banner-text {
-    text-align: center right;
+  
     color: #151414;
 }
 
-.asd {
-    text-align: right center;
-    padding: 220px;
+.banner-paragraph {
+
+    width: 1600px;
+    height: 510px;
     color: #444343;
+    
+
 
 }
 
@@ -42,6 +66,10 @@
     gap: 130px;
 }
 
+.icon {
+    color: lightgreen;
+}
+
 .plans-title {
     text-align: center;
     margin-top: 130px;
@@ -58,4 +86,75 @@
     color: #737272;
     font-weight: 500;
     font-size: 25px;
+}
+
+.background-gradient {
+    background-image: url('./images/gradient2.png');
+    width: 1140px;
+    height: 300px;
+    margin: 230px;
+}
+
+.grad-text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 60px;
+}
+
+.contact {
+    align-items: baseline;
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    padding: 20px 35px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 75px;
+    border-radius: 3px;
+    border-width: 0;
+}
+
+/* Footer Section */
+.footer {
+    display: flex;
+    gap: 330px;
+    padding: 230px;
+    background-color: #151414;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.subscribe {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.btn-sub {
+    padding: 20px 35px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    margin-top: 35px;
+    border-radius: 6px;
+}
+
+input {
+    padding: 21px 158px 22px 21px;
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 8px;
+
 }
